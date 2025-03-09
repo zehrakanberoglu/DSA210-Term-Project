@@ -6,7 +6,7 @@ I am Zehra Kanberoğlu, a student at Sabanci University. Most of the university 
 - [Project Goal](##projectgoal)
 
 ## MOTIVATION
-For university students, actively participating in classes and gaining efficiency from them can be difficult, especially without a proper sleep pattern. My motivation for this project is to analyze how sleep patterns affect my class attandence and efficiency. This study aims to highlight the importance of maintaining a healthy sleep schedule.
+For university students, actively participating in classes and gaining efficiency from them can be difficult, especially without a proper sleep pattern. My motivation for this project is to analyze how sleep patterns affect my class attandence and efficiency. My aim for this project to highlight the importance of maintaining a healthy sleep schedule and change the unhealthy habits for my life.
 
 ## PROJECT GOAL
 The goal of this project is to analyze the impact of sleep schedule and sleep quality on active participation in early-hour university classes. By tracking my sleep patterns using a sleep tracker app and collect all of the data manually. I aim to identify correlations between sleep habits and academic engagement. This study will help me understand the significance of maintaining a healthy sleep routine and its effects on learning efficiency, ultimately providing insights into how sleep influences student performance in morning classes.
