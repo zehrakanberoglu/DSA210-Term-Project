@@ -1,5 +1,5 @@
 # DSA210-Term-Project
-I am Zehra Kanberoğlu a student at Sabanci University. Most of the university student having a struggle from waking up to early classes. I believe that poor quality or short sleep will negatively affect active participation in early classes. In my DSA210 term project I decided to analyze the relationship between my sleep schedule/sleep quality and my active attendance to my early hour classes. I will use the sleep tracker app for checking my sleep schedule but I will collect all the data manually.
+I am Zehra Kanberoğlu, a student at Sabanci University. Most of the university student having a struggle from waking up to early classes. I believe that poor quality or short sleep will negatively affect active participation in early classes. In my DSA210 term project I decided to analyze the relationship between my sleep schedule/sleep quality and my active attendance to my early hour classes. I will use the sleep tracker app for checking my sleep schedule but I will collect all the data manually.
 
 ## CONTENTS
 - [Motivation](##motivation)
