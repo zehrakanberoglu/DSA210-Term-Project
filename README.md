@@ -18,9 +18,9 @@ The goal of this project is to explore relatioship between screen time and study
 ## DATA SOURCE
 All data was manually collected by me.
 - Date: Dates that i have been collected.
-- Phone Time:  It represents daily phone screen time.
-- Computer Time: It represents daily computer screen time.
-- Study time: It represents daily study time
+- Phone Time/minute:  It represents daily phone screen time.
+- Computer Time/minute: It represents daily computer screen time.
+- Study time/minute: It represents daily study time
 - Study Session: It represents daily number of study sessions. 
 - Distraction by Phone: It represents the number of time I checked my phone during study.
 - The data is recorded in `raw_data.2.xlsx`.
@@ -29,7 +29,7 @@ All data was manually collected by me.
 You can directly open and run this project on Google Collab using [this link](https://colab.research.google.com/drive/1VJFyATZyOmFEAIA3LrCj_uQbVdfqWod7?usp=drive_link).
 
 ## FILES
-- `DSA210.ipynb`:
+- `DSA210.ipynb`: Python code for data cleaning, exploratory data analysis (EDA), and hypothesis testing.
 - `raw_data.2.xlsx`: Manually collected data.
 
 
