@@ -17,8 +17,8 @@ The goal of this project is to explore relatioship between screen time and study
 
 ## DATA SOURCE
 All data was manually collected by me. I tracked:
-#Daily phone screen time
-#Daily computer screen time
+-Daily phone screen time
+-Daily computer screen time
 -Daily study time
 -Daily number of study 
 -Number of time I checked my phone during study
@@ -27,11 +27,9 @@ The data is recorded in `raw_data.2.xlsx`.
 ## GOOGLE COLLAB LINK
 You can directly open and run this project on Google Collab using [this link](https://colab.research.google.com/drive/1VJFyATZyOmFEAIA3LrCj_uQbVdfqWod7?usp=drive_link).
 
-Or you can acces the code below under the ##CODE section, recorded data file is already uploaded and requuirements for python libraries are below under the ##REQUIREMENTS part.
-
 ## FILES
+- `DSA210.ipynb`:
 - `raw_data.2.xlsx`: Manually collected data.
-
 
 
 ## FINDINGS AND VISUALIZATIONS
