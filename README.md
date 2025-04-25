@@ -18,9 +18,9 @@ As a university student who struggles to balance academic responsibilities with 
 The goal of this project is to explore relatioship between screen time and study efficiency. I want to determine and create a balance between device spending time and studying time. I will collect the screen time and study behaviour data manually. By analyzing this data, I hope to identify patterns that could help optimize study habits and manage digital distractions effectively.
 
 ## DATA SOURCE
-All sata was manually collected by me over a few weeks. I tracked:
--Daily phone screen time
--Daily computer screen time
+All data was manually collected by me. I tracked:
+#Daily phone screen time
+#Daily computer screen time
 -Daily study time
 -Daily number of study 
 -Number of time I checked my phone during study
