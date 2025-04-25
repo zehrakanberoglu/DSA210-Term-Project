@@ -5,10 +5,8 @@ I am Zehra Kanberoğlu, a student at Sabanci University. In my DSA210 term proje
 - [Motivation](##motivation)
 - [Project Goal](##projectgoal)
 - [Data Source](##datasource)
-- [Files](##files)
-- [Requirements](##requirements)
-- [Google Collab Link](##googlecollablink)
-- [Code](##code)
+- [Files](#files)
+- [Google Collab Link](#googlecollablink)
 - [Findings and Visualizations](##findingsandvisualizations)
 
 ## MOTIVATION
