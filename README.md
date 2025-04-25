@@ -2,12 +2,12 @@
 I am Zehra Kanberoğlu, a student at Sabanci University. In my DSA210 term project I decided to analyze my daily screen time data from both of my phone and computer, particularly the types of applications I use, such as social media and entertainment apps. In the second part, I will analyze my study habits, including total daily study time, the number of study sessions, and how frequently I check my devices while studying.  I will track my screen time on both my phone and computer, but I will manually collect all the data using an Excel format.
 
 ## CONTENTS
-- [Motivation](##motivation)
-- [Project Goal](##projectgoal)
-- [Data Source](##datasource)
-- [Files](#files)
+- [Motivation](#motivation)
+- [Project Goal](#projectgoal)
+- [Data Source](#datasource)
 - [Google Collab Link](#googlecollablink)
-- [Findings and Visualizations](##findingsandvisualizations)
+- [Files](#files)
+- [Findings and Visualizations](#findingsandvisualizations)
 
 ## MOTIVATION
 As a university student who struggles to balance academic responsibilities with digital distractions, I often find myself thinking how my device usage affects my study habits. With increasing screen time, I suspect that my focus and productivity are being negatively impacted. My aim in maintaining this project is to gain a deeper understanding of how my daily screen time influence my study behavior. Specifically, I want to determine if increased screen time correlates with reduced study duration, fewer study sessions, or increased phone-checking frequency during study periods. 
@@ -16,13 +16,14 @@ As a university student who struggles to balance academic responsibilities with 
 The goal of this project is to explore relatioship between screen time and study efficiency. I want to determine and create a balance between device spending time and studying time. I will collect the screen time and study behaviour data manually. By analyzing this data, I hope to identify patterns that could help optimize study habits and manage digital distractions effectively.
 
 ## DATA SOURCE
-All data was manually collected by me. I tracked:
--Daily phone screen time
--Daily computer screen time
--Daily study time
--Daily number of study 
--Number of time I checked my phone during study
-The data is recorded in `raw_data.2.xlsx`.
+All data was manually collected by me.
+- Date: Dates that i have been collected.
+- Phone Time:  It represents daily phone screen time.
+- Computer Time: It represents daily computer screen time.
+- Study time: It represents daily study time
+- Study Session: It represents daily number of study sessions. 
+- Distraction by Phone: It represents the number of time I checked my phone during study.
+- The data is recorded in `raw_data.2.xlsx`.
 
 ## GOOGLE COLLAB LINK
 You can directly open and run this project on Google Collab using [this link](https://colab.research.google.com/drive/1VJFyATZyOmFEAIA3LrCj_uQbVdfqWod7?usp=drive_link).
