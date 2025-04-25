@@ -3,11 +3,11 @@ I am Zehra Kanberoğlu, a student at Sabanci University. In my DSA210 term proje
 
 ## CONTENTS
 - [Motivation](#motivation)
-- [Project Goal](#projectgoal)
-- [Data Source](#datasource)
-- [Google Collab Link](#googlecollablink)
+- [Project Goal](#project-goal)
+- [Data Source](#data-source)
+- [Google Collab Link](#google-collab-link)
 - [Files](#files)
-- [Findings and Visualizations](#findingsandvisualizations)
+- [Findings and Visualizations](#findings-and-visualizations)
 
 ## MOTIVATION
 As a university student who struggles to balance academic responsibilities with digital distractions, I often find myself thinking how my device usage affects my study habits. With increasing screen time, I suspect that my focus and productivity are being negatively impacted. My aim in maintaining this project is to gain a deeper understanding of how my daily screen time influence my study behavior. Specifically, I want to determine if increased screen time correlates with reduced study duration, fewer study sessions, or increased phone-checking frequency during study periods. 
