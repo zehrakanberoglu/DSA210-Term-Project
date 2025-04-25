@@ -7,6 +7,7 @@ I am Zehra Kanberoğlu, a student at Sabanci University. In my DSA210 term proje
 - [Data Source](##datasource)
 - [Files](##files)
 - [Requirements](##requirements)
+- [Google Collab Link](##googlecollablink)
 - [Code](##code)
 - [Findings and Visualizations](##findingsandvisualizations)
 
@@ -24,7 +25,11 @@ All sata was manually collected by me over a few weeks. I tracked:
 -Daily number of study 
 -Number of time I checked my phone during study
 The data is recorded in `raw_data.2.xlsx`.
-All project file is directly included below under the ##CODE section.
+
+## GOOGLE COLLAB LINK
+You can directly open and run this project on Google Collab using [this link](https://colab.research.google.com/drive/1VJFyATZyOmFEAIA3LrCj_uQbVdfqWod7?usp=drive_link).
+
+Or you can acces the code below under the ##CODE section, recorded data file is already uploaded and requuirements for python libraries are below under the ##REQUIREMENTS part.
 
 ## FILES
 - `raw_data.2.xlsx`: Manually collected data.
@@ -39,8 +44,8 @@ This project requires the following Python Libraries:
 You can install all required libraries manually by running the following command:
 pip install pandas matplotlib seaborn scipy openpyxl
 
-
 ## CODE
+
 
 ```python
 import pandas as pd
