@@ -19,7 +19,7 @@ The goal of this project is to explore relatioship between screen time and study
 All data was manually collected by me.
 - Date: Dates that i have been collected.
 - Phone Time/minute:  It represents daily phone screen time.
-- Computer Time/minute: It represents daily computer screen time.
+- Weekly Exam Count: It represents the exam number in current week.
 - Study time/minute: It represents daily study time
 - Study Session: It represents daily number of study sessions. 
 - Distraction by Phone: It represents the number of time I checked my phone during study.
@@ -36,17 +36,53 @@ You can directly open and run this project on Google Collab using [this link](ht
 ## FINDINGS AND VISUALIZATIONS
 In the code I write in the below creates different kind of graphs to support my hypothesis. 
 
-1) Screen Time and Study Time (LINE PLOT):
-We can see in the Line Plot which shows the relationship between Phone-Computer Time and Study Time over the data collection period. There are some noticeable fluctuations across days. On some days, when screen time increased especially phone time, study time tended to decrease. This visual supports the hypothesis that increased screen time negatively affects study efficiency. The inverse relationship between screen time and study time is visible through these trends.
+1) LINE PLOT: Displays daily trends of phone time vs. study time.
 
-2) Daily Total Screen Time (BAR PLOT):
-This bar graph illustrates the total screen time (phone + computer) for each recorded day. Certain days stand out with significantly higher total screen time, highlighting periods of heavier digital device usage. By identifying high screen time days and comparing them with corresponding study time, it is possible to observe patterns that support the idea that more screen time reduces available time and focus for studying.
 
-3) Computer Time vs. Study Time (SCATTER PLOT):
-This scatter plot shows the relationship between daily computer screen time and study time. There appears to be a mild positive trend: on days when computer time increases, study time often increases as well. This suggests that some of the computer usage might be study-related rather than purely for entertainment. Unlike phone usage, computer time does not seem to purely distract from studying. Instead, moderate to high computer usage might correlate with more study activity, possibly because students (including myself) often study using their computers for assignments, readings, or coding tasks. In this graph we can see that device screen time being increased does not always negatively correlated with the study time.
+2) BAR PLOT: Shows total phone screen time across days.
 
-4) CORRELATION MATRIX (HEATMAP):
-This heatmap shows the correlation coefficients between all numerical variables in the dataset. It visually represents how strongly two variables are linearly related, with values ranging from -1 (strong negative correlation) to +1 (strong positive correlation). There is a moderate to strong negative correlation between Total Screen Time and Study Time, indicating that as screen time increases, study time tends to decrease. There is a positive correlation between Computer Time and Study Time, which may suggest that computer usage is often linked to studying activities. Phone Distractions show a negative relationship with Study Time, implying that frequent checking of the phone is associated with reduced study time. This visual directly supports the project's main hypothesis. Additionally, it refines the hypothesis by revealing that not all screen time is equally distracting: Phone usage appears more harmful (due to stronger negative correlation), while computer usage may sometimes be study-related, as shown by its positive relationship with study time.
+
+3) SCATTER PLOT:
+
+
+4) HEATMAP:
+## HYPOTHESIS TESTING AND INTERPRETATION
+1) Phone Time vs Study Time:
+   - Hypothesis: Increse of phone time negatively effects the study time.
+   - r=0.0016, p=0.897
+   - No statistically significant correlation
+   - Conclusion: Daily phone screen time does not meaningfully affect study duration.
+     
+2) Phone Distractions vs Study Time:
+   - Hypothesis: Increase the amount of study leads to more checking the phone during study time.
+   - r=0.780, p<0.00001
+   - Statistically significant strong correlation.
+   - Interpretation: Days with longer study time may naturally involve more for distraction; this shoud not be misinterpreted as distraction increasing study time.
+     
+3) Weekly Exam Count vs Study Time:
+   - Hypothesis: Number of weekly exams increase the study time.
+   - r=0.428 , p=0.00027
+   - Statistically significant moderate positive correlation
+   - Interpretation: More weekly exams are associated with increased study time, supporting the hypothesis that exam number on that week leads to more study time.
+
+5) Phone Time vs Phone Distractions:
+   - Hypothesis: Higher phone screen time is associated with more frequent distractions.
+   - r=0.008, p=0.946
+   - No statistically significant correlation.
+   - Conclusion: The amount of phone usage does not predict how frequently I check my phone during study sessions.
+
+## MACHINE LEARNING MODEL: PREDICTING STUDY SESSIONS
+In addition to hypothesis testing, a linear regression model was built to predict the number of daily study sessions using behavioral and contextual features:
+- Features used: Phone Time/min, Phone Distractions, Study Time/min, Weekly Exam Count.
+- Target variable: Study Sessions
+Model Results:
+- Mean Absolute Error (MAE): 0.336
+- R² Score: 0.715
+Interpretation:
+This model explains approximately 71.5% of the variance in daily study session count and predicts the outcome with an average error of just 0.34 sessions. This indicates a strong predictive power, showing that screen and study behaviors, along with academic pressure, are useful indicators of study habits.
+   
+
+
 
 
  
