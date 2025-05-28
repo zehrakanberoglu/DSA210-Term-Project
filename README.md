@@ -37,14 +37,14 @@ You can directly open and run this project on Google Collab using [this link](ht
 
 ## METHODS AND ANALYSIS
 1) DATA CLEANING:
-   -Converted the Date column to datetime format using pd.to_datetime
-   -Converted the numeric fields to proper float values
-   -Checked for and removed missing values to ensure valid correlation and modeling
+   - Converted the Date column to datetime format using pd.to_datetime
+   - Converted the numeric fields to proper float values
+   - Checked for and removed missing values to ensure valid correlation and modeling
    
-2)EXPLORATORY DATA ANALYSIS (EDA):
-   -Line Plot: Visiualized daily trends of Phone Time and Study Time to examine possible inverse patterns.
-   -Bar Graph: Displayed daily Phone Time to identify high-usage days and potential distraction patterns.
-   -Correlation Matrix Heatmap: Examined linear relationships among key variables: Study Time, Phone Distractions, Exam Count, Phone Time.
+2) EXPLORATORY DATA ANALYSIS (EDA):
+   - Line Plot: Visiualized daily trends of Phone Time and Study Time to examine possible inverse patterns.
+   - Bar Graph: Displayed daily Phone Time to identify high-usage days and potential distraction patterns.
+   - Correlation Matrix Heatmap: Examined linear relationships among key variables: Study Time, Phone Distractions, Exam Count, Phone Time.
 
 3) HYPOTHESIS TESTING
 4) MACHINE LEARNING-PREDICTIVE ANALYSIS
