@@ -84,10 +84,10 @@ Phone Time itself does not have strong correlations with the study-related varia
 In addition to hypothesis testing, a Random Forest regression model was built to predict the number of daily study sessions using behavioral and contextual features:
 - Features used: Phone Time/min, Phone Distractions, Study Time/min, Weekly Exam Count.
 - Target variable: Study Sessions
-Model Results:
+- Model Results:
 - Mean Squared Error (MSE): 0.723
 - R² Score: 0.362
-Interpretation:
+- Interpretation:
 This model explains approximately 36.2% of the variance in daily study session count. On average, the prediction deviates by less than one session per day, which is reasonably accurate given the limited range of possible session values. While the predictive power is moderate, the results suggest that behavioral patterns, especially related to screen time and study duration, are meaningful indicators of study session frequency.
    
 
