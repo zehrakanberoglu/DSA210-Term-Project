@@ -72,13 +72,18 @@ You can directly open and run this project on Google Collab using [this link](ht
 
 1) LINE PLOT: Displays daily trends of phone time vs. study time. The lines help visiulize if there is a noticable trend between the two variables. In this case, there is no consistent inverse pattern-some days with high phone time do not always correspond to low study time and vice versa. This supports statistical test which found no significant correlation between these two variables. t suggests that overall phone usage does not strongly or directly predict how much you study on a given day.
 
+![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/3ce66ccf483effb2a5e7bfde830a3a2db53a5cb2/lineplot.png)
+
 
 2) BAR PLOT: This bar graph shows the total amount of phone screen time for each recorded day. It highlights which days involved the most phone usage. While it does not directly indicate how study time was affected, these high-usage days might be represent periods of higher distraction or less focus. This graph helps you visually spot possible outliers or patterns in your daily phone habits. However, as with the line plot, the lack of strong statistical correlation means we should be cautious in assuming a direct negative impact.
+
+![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/9c2b0cd188a49b577bec4029785191a0ef42bc0c/bargraph.png)
 
 
 3) CORRELATION MATRIX HEATMAP: This heatmap shows the strength of linear relationships between all pairs of numerical variables using correlation coefficients. The most notable finding here is a strong positive correlation between Study Time and Phone Distractions. This might initially seem counterintuitive, but it could be that the more time you spend studying, the more chances there are to get distracted. A moderate positive correlation is seen between Weekly Exam Count and Study Time, suggesting that exam pressure increases your study effort.
 Phone Time itself does not have strong correlations with the study-related variables, reinforcing earlier findings.
 
+![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/a7507574802a10a0231eefd05bc337d642260aae/heatmap.png)
 
 ## MACHINE LEARNING MODEL: PREDICTING STUDY SESSIONS
 In addition to hypothesis testing, a Random Forest regression model was built to predict the number of daily study sessions using behavioral and contextual features:
@@ -90,8 +95,24 @@ In addition to hypothesis testing, a Random Forest regression model was built to
 - Interpretation:
 This model explains approximately 36.2% of the variance in daily study session count. On average, the prediction deviates by less than one session per day, which is reasonably accurate given the limited range of possible session values. While the predictive power is moderate, the results suggest that behavioral patterns, especially related to screen time and study duration, are meaningful indicators of study session frequency.
    
+![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/e98ec860ac61e88c7fffa084dbad7a38e9fd3105/ml.png)
 
+## LIMITATIONS
+- The data was manually collected and thus subject to recall bias or human error.
+- The dataset is small and covers a short time window, limiting generalizability.
+- The concept of screen time was not app-specific; future data collection could benefit from tracking app categories (e.g., social media, productivity) for clearer insights.
 
+## FUTURE WORK
+- Automate screen and distraction tracking through mobile phone.
+- Differentiate between productive and non-productive screen activities.
+- Include psychological or contextual data (e.g., motivation, environment) to better understand distraction dynamics
 
+## CONCLUSION
+- This project set out to examine how daily phone usage interacts with study habits among university students. Through manual data collection and exploratory analysis, key behavioral patterns were identified:
+- Phone distractions during study sessions are strongly associated with longer study durations. However, this correlation should not be misinterpreted as causation—longer study periods naturally offer more chances for distraction.
+- Contrary to initial assumptions, overall daily phone screen time did not significantly correlate with either study duration or the number of distractions during study. This highlights the importance of distinguishing between active distraction and passive usage when analyzing screen time.
+- The number of weekly exams was moderately and positively associated with increased study time. This confirms the expectation that academic workload drives longer study efforts.
+- Interestingly, no meaningful relationship was found between phone time and distraction frequency, suggesting that high screen time alone doesn't necessarily lead to more interruptions during focused work.
+- A simple machine learning model was also implemented to predict daily study sessions based on behavioral and contextual factors. The model demonstrated strong predictive power, reinforcing the idea that phone usage, study duration, and academic pressure can together serve as reliable indicators of study behavior.
 
  
