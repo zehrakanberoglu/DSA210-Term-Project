@@ -11,6 +11,9 @@ I am Zehra Kanberoğlu, a student at Sabanci University. In my DSA210 term proje
 - [Hypothesis Testing and Interpretation](#hypothesis-testing-and-interpretation)
 - [Findings and Visualizations](#findings-and-visualizations)
 - [Machine Learning Model](#machine-learning-model)
+- [Limitations](#limitations)
+- [Future Work](#future-work)
+- [Conclusion](#conclusion)
 
 ## MOTIVATION
 As a university student who struggles to balance academic responsibilities with digital distractions, I often find myself thinking how my device usage affects my study habits. With increasing screen time, I suspect that my focus and productivity are being negatively impacted. My aim in maintaining this project is to gain a deeper understanding of how my daily screen time influence my study behavior. Specifically, I want to determine if increased screen time correlates with reduced study duration, fewer study sessions, or increased phone-checking frequency during study periods. 
@@ -51,26 +54,26 @@ You can directly open and run this project on Google Collab using [this link](ht
 
 ## HYPOTHESIS TESTING AND INTERPRETATION
 1) Phone Time vs Study Time:
-   - Hypothesis: Increse of phone time negatively effects the study time.
+   - Hypothesis: Increse of phone time negatively effects and reduces the study time.
    - r=0.007, p=0.947
    - No statistically significant correlation
    - Conclusion: Daily phone screen time does not meaningfully affect study duration.
      
 2) Phone Distractions vs Study Time:
-   - Hypothesis: Increase the amount of study leads to more checking the phone during study time.
+   - Hypothesis: The increased amount of study time leads to looking at the phone more while studying.
    - r=0.703, p<0.00001
    - Statistically significant strong correlation.
    - Interpretation: Days with longer study time may naturally involve more for distraction; this shoud not be misinterpreted as distraction increasing study time.
      
 3) Weekly Exam Count vs Study Time:
-   - Hypothesis: Number of weekly exams increase the study time.
+   - Hypothesis: Increse of weekly exam numbers increase the study time.
    - r=0.426 , p=0.00001
    - Statistically significant moderate positive correlation
    - Interpretation: More weekly exams are associated with increased study time, supporting the hypothesis that exam number on that week leads to more study time.
 
 ## FINDINGS AND VISUALIZATIONS 
 
-1) LINE PLOT: Displays daily trends of phone time vs. study time. The lines help visiulize if there is a noticable trend between the two variables. In this case, there is no consistent inverse pattern-some days with high phone time do not always correspond to low study time and vice versa. This supports statistical test which found no significant correlation between these two variables. t suggests that overall phone usage does not strongly or directly predict how much you study on a given day.
+1) LINE PLOT: Displays daily trends of phone time vs. study time. The lines help visiulize if there is a noticable trend between the two variables. In this case, there is no consistent inverse pattern-some days with high phone time do not always correspond to low study time and vice versa. This supports statistical test which found no significant correlation between these two variables. It supports the hypothesis 1 which is overall phone usage does not strongly or directly predict how much you study on a given day.
 
 ![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/3ce66ccf483effb2a5e7bfde830a3a2db53a5cb2/lineplot.png)
 
@@ -80,8 +83,7 @@ You can directly open and run this project on Google Collab using [this link](ht
 ![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/9c2b0cd188a49b577bec4029785191a0ef42bc0c/bargraph.png)
 
 
-3) CORRELATION MATRIX HEATMAP: This heatmap shows the strength of linear relationships between all pairs of numerical variables using correlation coefficients. The most notable finding here is a strong positive correlation between Study Time and Phone Distractions. This might initially seem counterintuitive, but it could be that the more time you spend studying, the more chances there are to get distracted. A moderate positive correlation is seen between Weekly Exam Count and Study Time, suggesting that exam pressure increases your study effort.
-Phone Time itself does not have strong correlations with the study-related variables, reinforcing earlier findings.
+3) CORRELATION MATRIX HEATMAP: This heatmap shows the strength of linear relationships between all pairs of numerical variables using correlation coefficients. The most notable finding here is a strong positive correlation between Study Time and Phone Distractions. This might initially seem counterintuitive, but it could be that the more time you spend studying, the more chances there are to get distracted. A moderate positive correlation is seen between Weekly Exam Count and Study Time, which supports the hypothesis 3, suggesting that weekly exam number increases your study effort. Phone Time itself does not have strong correlations with the study-related variables, reinforcing earlier findings.
 
 ![image](https://github.com/zehrakanberoglu/DSA210-Term-Project/blob/a7507574802a10a0231eefd05bc337d642260aae/heatmap.png)
 
@@ -105,7 +107,7 @@ This model explains approximately 36.2% of the variance in daily study session c
 ## FUTURE WORK
 - Automate screen and distraction tracking through mobile phone.
 - Differentiate between productive and non-productive screen activities.
-- Include psychological or contextual data (e.g., motivation, environment) to better understand distraction dynamics
+- Include contextual data (e.g., environment) to better understand distraction dynamics.
 
 ## CONCLUSION
 - This project set out to examine how daily phone usage interacts with study habits among university students. Through manual data collection and exploratory analysis, key behavioral patterns were identified:
@@ -113,6 +115,6 @@ This model explains approximately 36.2% of the variance in daily study session c
 - Contrary to initial assumptions, overall daily phone screen time did not significantly correlate with either study duration or the number of distractions during study. This highlights the importance of distinguishing between active distraction and passive usage when analyzing screen time.
 - The number of weekly exams was moderately and positively associated with increased study time. This confirms the expectation that academic workload drives longer study efforts.
 - Interestingly, no meaningful relationship was found between phone time and distraction frequency, suggesting that high screen time alone doesn't necessarily lead to more interruptions during focused work.
-- A simple machine learning model was also implemented to predict daily study sessions based on behavioral and contextual factors. The model demonstrated strong predictive power, reinforcing the idea that phone usage, study duration, and academic pressure can together serve as reliable indicators of study behavior.
+- A simple machine learning model was also implemented to predict daily study sessions based on behavioral and contextual factors. The model demonstrated strong predictive power, reinforcing the idea that phone usage, study duration, and exam number can together serve as reliable indicators of study behavior.
 
  
